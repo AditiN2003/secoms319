@@ -15,17 +15,19 @@ body {
 
 /* Picture buttons */
 .toolbar button {
-    background-color: gray;
+    margin-right: 15px;
+    height: 50px;
+    width: 125px;
     border: none;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    margin-right: 10px;
+    background-color: white;
+    color: pink;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
 }
-
 .toolbar button:last-of-type {
     margin-right: 0;
-    margin-left: 10px;
 }
 
 /* Title */
