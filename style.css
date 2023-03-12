@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Pink toolbar */
+.toolbar {
+    background-color: rgb(241, 172, 182);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Picture buttons */
+.toolbar button {
+    background-color: gray;
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+.toolbar button:last-of-type {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+/* Title */
+.title {
+    font-size: 36px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Text containers */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    margin: 20px 1.5%;
+    background-color: lightgray;
+    width: 30%;
+    word-wrap: break-word;
+
+}
+
+
+/* Subtitles */
+.subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+/* Footer */
+.footer {
+    background-color: darkgray;
+    text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-content .container {
+    flex-basis: 29%;
+    margin: 20px 1.5%;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
